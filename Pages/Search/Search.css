@@ -1,0 +1,67 @@
+.searchContainer{
+    background-color: #ededed;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.searchIcon{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    
+}
+
+.arrow{
+    padding-right: 2rem;
+}
+
+.searchText{
+    padding-bottom: 2rem;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cardWrapper{
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.searchMenuCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 47.5%; */
+    width: 100%;
+    height: 321px;
+}
+
+.searchImageUrl{
+    border-radius:100%;
+    background-color: transparent;
+    margin-bottom: -100px;
+    z-index: 1;
+}
+
+.searchPriceNameDiv{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    width:220px;
+    height: 321px;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+    
+}
+
+
+

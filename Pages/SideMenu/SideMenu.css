@@ -1,0 +1,32 @@
+.sideMenuContainer{
+    background-color: #FFC83A;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    border-radius: 2rem;
+    
+}
+
+.sideMenuIcon{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.sideMenuList div{
+    border-bottom: 1px solid #000;
+    padding-top: 2rem;
+    
+
+}
+
+.sideMenuList div p{
+    padding-bottom: 1rem;
+    font-size: 1.25rem;
+    
+}
+
+.sideMenuSignOut{
+    /* padding-top: 6rem; */
+}
