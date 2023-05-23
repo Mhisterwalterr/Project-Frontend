@@ -11,7 +11,7 @@ const foodDescription = [
     
      id: 1,
      url: ofada,
-     name: 'ofada',
+     name: 'ofada beans and rice',
      description: 'a short brown variety of rice grown locally in Nigeria',
      price: 2500,
      rating : 4
@@ -21,7 +21,7 @@ const foodDescription = [
     {
      id: 2,
      url: Ewa,
-     name: 'EwwaAgoin',
+     name: 'EwwaAgoinbeansandrice',
      description: 'premium beans and oil',
      price: 1500,
      rating : 3,

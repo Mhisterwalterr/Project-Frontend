@@ -68,10 +68,8 @@ return(
     </div> 
     
     <div className='searchPriceNameDiv'>
-             <div className='priceName'>
-                <h1 className='menuName'>{menu.name}</h1>
-                <h2 className='menuPrice'><span>₦</span>{menu.price}</h2>
-                </div>
+                <h3 className='menuName'>{menu.name}</h3>
+                <h6 className='menuPrice'><span>₦</span>{menu.price}</h6>
                 </div>
                 </div>
     </Link>
