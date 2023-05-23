@@ -59,13 +59,13 @@ const handleInputChange = (data)=>{
 filteredResult.map( (menu ,index) => {
 return(
 
-    <div key={index}>
+    <div key={index} className='foodCard'>
 
       <Link to={`/foodDetails/${menu.id}`}>
         <div  className='searchMenuCard'>
     <div className='searchImageUrl'>
-        <img src={menu.url} alt="" width='150'className='foodImage' />
-    </div>
+        <img src={menu.url} alt="" className='foodImage' />
+    </div> 
     
     <div className='searchPriceNameDiv'>
              <div className='priceName'>

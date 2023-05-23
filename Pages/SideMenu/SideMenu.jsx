@@ -21,24 +21,24 @@ function SideMenu() {
         </div>
         <div>
         <Link to='/order'>
-            <p><span><AiOutlineShoppingCart/></span>order</p>
+            <p><span><AiOutlineShoppingCart/></span>Order</p>
         </Link>
         </div>
         <div>
             <Link to='/myoffer'>
-            <p><span><MdOutlineLocalOffer/></span>offer and promo</p>
+            <p><span><MdOutlineLocalOffer/></span>Offer and promo</p>
             </Link>
         </div>
         <div>
-            <p><span><FaRegNewspaper/></span>privacy policy</p>
+            <p><span><FaRegNewspaper/></span>Privacy policy</p>
         </div>
         <div>
-            <p><span><MdSecurity/></span>security</p>
+            <p><span><MdSecurity/></span>Security</p>
         </div>
         </div>
 
         <div className='sideMenuSignOut'>
-            <p>sign-out <span><AiOutlineArrowRight/></span></p>
+            <p>Sign-out <span><AiOutlineArrowRight/></span></p>
         </div>
     </div>
   )
