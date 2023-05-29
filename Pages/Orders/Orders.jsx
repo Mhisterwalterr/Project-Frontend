@@ -10,7 +10,9 @@ const Orders = () => {
   return (
     <div className='orderContainer'>
       <div className='orderIcon'>
+        <Link to='/menu'>
         <IoIosArrowBack  className='orderArrow'/>
+        </Link>
         <p>orders</p>
       </div>
       <div className='orderImage'>

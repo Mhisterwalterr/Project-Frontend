@@ -13,6 +13,8 @@ import SideMenu from '../Pages/SideMenu/SideMenu'
 import MyProfile from '../Pages/MyProfile/MyProfile'
 import Orders from '../Pages/Orders/Orders'
 import MyOffer from '../Pages/MyOffers/MyOffer'
+import PrivacyPolicy from '../Pages/PrivacyPolicy/PrivacyPolicy'
+import Map from '../Pages/Map/Map'
 import PageContainer from '../Component/PageContainer/PageContainer'
 
 
@@ -36,6 +38,8 @@ const RouteComponent = () =>  {
                 <Route path='/sidemenu' element={<SideMenu />} />
                 <Route path='/myprofile' element={<MyProfile />} />
                 <Route path='/order' element={<Orders />} />
+                <Route path='/map' element={<Map />} />
+                <Route path='/privacy' element={<PrivacyPolicy />} />
                 <Route path='/myoffer' element={<MyOffer />} />
                 </Route>
             </Routes>

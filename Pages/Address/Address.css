@@ -1,4 +1,7 @@
 .addressContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
     background-color: #ededed;
     width: 100%;
     height: 100%;
@@ -8,31 +11,37 @@
 
 .addressHeader{
   display: flex;
+  
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
   
   
     
 }
 
 .addressHeader p{
- margin-left: 3rem;
+ margin-left: 5rem;
+ font-weight: bold;
+ font-size: 1.3rem;
 }
 
 .addressArrow{
+  font-size: 2rem;
   
     
     
 }
 .addressDelivery{
   text-align: left;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 
 }
 
 .addressChange{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 1rem;
+  font-weight: bold;
     
     
     
@@ -43,6 +52,7 @@
   border-radius: 1rem;
   text-align: left;
   margin-left: 1rem;
+  padding: 2rem;
   
 }
 .class{
@@ -50,7 +60,16 @@
   padding: 0.25rem;
 }
 
+.addressButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+  
+}
 .addressButton Button{
  color: black;
  font-weight: bold;
+ border-radius: 2rem;
 }

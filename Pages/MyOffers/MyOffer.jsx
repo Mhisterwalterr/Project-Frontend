@@ -10,7 +10,9 @@ const MyOffer = () => {
   return (
     <div className='offerContainer'>
         <div className='offerIcon'>
+            <Link to='/menu'>
         <IoIosArrowBack className='offerArrow'/>
+        </Link>
         </div>
         <div className='offers'>
             <h1>My offers</h1>

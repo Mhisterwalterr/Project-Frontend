@@ -30,15 +30,21 @@ function SideMenu() {
             </Link>
         </div>
         <div>
+            <Link to='/privacy'>
             <p><span><FaRegNewspaper/></span>Privacy policy</p>
+            </Link>
         </div>
         <div>
+        <Link to='/privacy'>
             <p><span><MdSecurity/></span>Security</p>
+            </Link>
         </div>
         </div>
 
         <div className='sideMenuSignOut'>
+            <Link to='/login'>
             <p>Sign-out <span><AiOutlineArrowRight/></span></p>
+            </Link>
         </div>
     </div>
   )

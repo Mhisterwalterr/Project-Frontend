@@ -1,13 +1,16 @@
 import React from 'react'
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import './MyProfile.css'
-
+import image from '../../Food/Profile.png'
+import { Link } from 'react-router-dom';
 
 function MyProfile() {
   return (
     <div className='myProfileContainer'>
     <div className='profileIcon'>
+        <Link to='/menu'>
         <IoIosArrowBack />
+        </Link>
     </div>
     <div  className='profileText'>
         <h1>My Profile</h1>
@@ -19,7 +22,7 @@ function MyProfile() {
 
     <div className='profileInfo'>
         <div>
-           <h1>hello</h1>
+           <img src={image} alt="image" className='profileImage'/>
         </div>
         <div className='innerInfo'>
             <p>Akaeme Chidera</p>
